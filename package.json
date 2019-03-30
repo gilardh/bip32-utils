@@ -22,7 +22,8 @@
     "discovery",
     "gap",
     "bitcoinjs",
-    "bitcoin"
+    "bitcoin",
+    "bitgo-utxo-lib"
   ],
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
@@ -32,14 +33,14 @@
     "unit": "tape test/*.js"
   },
   "devDependencies": {
-    "bitcoinjs-lib": "^3.0.0",
+    "bitgo-utxo-lib": "git+https://github.com/renuzit/bitgo-utxo-lib.git",
     "keccak": "^1.3.0",
     "nyc": "*",
     "standard": "*",
     "tape": "*"
   },
   "peerDependencies": {
-    "bitcoinjs-lib": "^3.0.0"
+    "bitgo-utxo-lib": "git+https://github.com/renuzit/bitgo-utxo-lib.git"
   },
   "engines": {
     "node": ">=4.0.0"

@@ -6,14 +6,14 @@
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 A set of utilities for working with BIP32.
-Compatible with bitcoinjs-lib `^2.0.0` and `^3.0.0`.
+Compatible with bitgo-utxo-lib.
 
 
 ## Example
 
 #### BIP32 Account
 ``` javascript
-var bitcoin = require('bitcoinjs-lib')
+var bitcoin = require('bitgo-utxo-lib')
 var bip32utils = require('bip32-utils')
 
 // ...
@@ -50,7 +50,7 @@ console.log(account.derive('1QEj2WQD9vxTzsGEvnmLpvzeLVrpzyKkGt', [external, inte
 
 #### BIP32 Chains
 ``` javascript
-var bitcoin = require('bitcoinjs-lib')
+var bitcoin = require('bitgo-utxo-lib')
 var bip32utils = require('bip32-utils')
 
 // ...
@@ -73,7 +73,7 @@ console.log(chain.pop())
 #### BIP32 Discovery (manual)
 ``` javascript
 var bip32utils = require('bip32-utils')
-var bitcoin = require('bitcoinjs-lib')
+var bitcoin = require('bitgo-utxo-lib')
 var Blockchain = require('cb-blockr')
 
 // ...

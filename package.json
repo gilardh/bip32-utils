@@ -7,12 +7,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/btcz/bip32-utils-btcz.git"
+    "url": "https://github.com/gilardh/bip32-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/btcz/bip32-utils-btcz/issues"
+    "url": "https://github.com/gilardh/bip32-utils/issues"
   },
-  "homepage": "https://github.com/btcz/bip32-utils-btcz",
+  "homepage": "https://github.com/gilardh/bip32-utils",
   "keywords": [
     "bip32-utils",
     "bip32",
@@ -33,14 +33,14 @@
     "unit": "tape test/*.js"
   },
   "devDependencies": {
-    "bitgo-utxo-lib": "git+https://github.com/btcz/bitgo-utxo-lib-btcz.git#v2.0.0",
+    "bitgo-utxo-lib": "git+https://github.com/gilardh/bitgo-utxo-lib.git#v2.0.0",
     "keccak": "^1.3.0",
     "nyc": "*",
     "standard": "*",
     "tape": "*"
   },
   "peerDependencies": {
-    "bitgo-utxo-lib": "git+https://github.com/btcz/bitgo-utxo-lib-btcz.git#v2.0.0"
+    "bitgo-utxo-lib": "git+https://github.com/gilardh/bitgo-utxo-lib.git#v2.0.0"
   },
   "engines": {
     "node": ">=4.0.0"
